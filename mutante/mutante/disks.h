@@ -6,5 +6,4 @@ namespace Disks
 	NTSTATUS DiskLoop(PDEVICE_OBJECT deviceArray, RaidUnitRegisterInterfaces registerInterfaces);
 	NTSTATUS ChangeDiskSerials();
 	NTSTATUS DisableSmart();
-	void DisableSmartBit(PRAID_UNIT_EXTENSION extension);
 }
